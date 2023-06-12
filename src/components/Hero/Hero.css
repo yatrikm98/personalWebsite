@@ -1,0 +1,43 @@
+.hero-1 {
+    /* transition: all 0.5s ease-in-out; */
+    animation: hero-1 500ms ease-in-out;
+    animation-fill-mode: forwards;
+    transform: scale(0);
+
+}
+
+@keyframes hero-1 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    /* 50% {
+        transform: translateX(-50%);
+    } */
+
+    100% {
+        transform: translateX(0%)
+    }
+}
+
+.hero-2 {
+    animation: hero-2 500ms ease-in-out;
+    animation-fill-mode: forwards;
+    transform: scale(0);
+}
+
+@keyframes hero-2 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    /* 50% { */
+    /* transform: translateX(50%); */
+    /* } */
+
+    100% {
+        transform: translateX(0%)
+    }
+}
+
+
