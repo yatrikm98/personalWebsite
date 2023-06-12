@@ -7,7 +7,7 @@ const NavBar = () => {
                 <li className="p-2 mr-2 cursor-pointer text-indigo-500"><a href="#about">About </a></li>
                 <li className="p-2 mr-2 cursor-pointer text-indigo-500"><a href="#projects"> Projects</a></li>
                 <li className="p-2 mr-2 cursor-pointer text-indigo-500"><a href="#contact"> Contact</a></li>
-                <li className="p-2 mr-48 cursor-pointer text-indigo-500"><a >Resume</a></li>
+                <li className="p-2 mr-48 cursor-pointer text-indigo-500"><a href="https://drive.google.com/file/d/1fQlv3_rat0iDbNGkFGdqivEqgBPn3n60/view" target="_blank"  rel="noreferrer">Resume</a></li>
             </ul>
         </div>
     )
