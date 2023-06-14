@@ -1,8 +1,8 @@
 const About = () => {
     return (
-        <div className="flex justify-center">
+        <div id="about" className="flex justify-center">
             <section className="about">
-                <div id="about" className="text-2xl p-2 text-blue-600">⭐ About ME</div>
+                <div  className="text-2xl p-2 text-blue-600">⭐ About ME</div>
                  <div className="h-0.5 bg-blue-400 "></div>
                 <p className="mt-3">
                     Worked in Textile Industry for a year

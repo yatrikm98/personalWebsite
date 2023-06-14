@@ -7,11 +7,25 @@ html {
     overflow-x: hidden;
 }
 
+
 html,
 body {
     margin: 0;
 }
 
+
+.progress-container {
+    /* position: fixed; */
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+.progress-bar {
+    height: 8px;
+    background: #04AA6D;
+    width: 0%;
+  }
 
 body {
     background-color: lightblue;
@@ -57,7 +71,6 @@ a:hover {
     transform: rotateZ(-5deg) scale(.9);
     transition: 1s ease;
 }
-
 
 .project-a {
     background-color: indigo;
