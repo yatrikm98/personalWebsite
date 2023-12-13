@@ -32,7 +32,7 @@ const Form = () => {
                             type="email" name="user_email"
                             required placeholder='xyx@gmail.com ' />
                         <textarea className='ml-3 mr-3 rounded-md mb-5 p-3'
-                            name="message" required placeholder = 'Enter Mesaage Here' />
+                            name="message" required placeholder = 'Enter Message Here' />
                         <div className=''>
                             <button type='submit'
                                 className='border p-3 rounded-lg hover:bg-blue-300 flex items-center justify-center text-white flex mb-5 ml-3 mr-3 h-10'>

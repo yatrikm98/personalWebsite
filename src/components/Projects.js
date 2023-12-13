@@ -25,9 +25,10 @@ const Projects = () => {
 
     return (
 
-        <div className="flex justify-center mt-10">
-            <section className="w-7/12">
-                <div id="projects" className="text-2xl p-2 text-blue-600">⭐Projects</div>
+        <div id="about" className="flex justify-center">
+            <section className="about">
+                <div  className="text-2xl p-2 text-blue-600">⭐ Projects</div>
+                <div className="h-0.5 bg-blue-400 "></div>
                 <div>{renderedProjects}</div>
                 <div> Note : There are other multiple projects as well that are uploaded on my Github account. One can go through and visit.</div>
             </section>

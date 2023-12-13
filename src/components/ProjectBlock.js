@@ -1,7 +1,7 @@
 const ProjectBlock = ({ project }) => {
     const { title, imageUrl, description, badges, liveUrl, githubUrl } = project
     return (
-        <div className=" flex project">
+        <div className=" flex project mt-3">
             <div className="mr-5 flex items-center h-52">
                 <img src={imageUrl} alt="No Pics" className="h-48 w-80 rotate-img border-2 border-black rounded" />
             </div>
@@ -18,8 +18,7 @@ const ProjectBlock = ({ project }) => {
                     <button><a href={githubUrl} rel="noreferrer" target="_blank" className="text-xl text-white project-a">Code</a></button>
                 </div>
             </div>
-            <div>
-            </div>
+            
         </div>
     )
 }

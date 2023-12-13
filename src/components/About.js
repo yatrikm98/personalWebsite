@@ -24,6 +24,7 @@ const About = () => {
                     professional experience, I offer empathy, attention to
                     details, and teamwork.
                 </p>
+                
                 <p className="text-xl p-2 text-blue-600">Hobbies And Interests: </p>
                 <ul className="flex">
                     <li className="px-4 text-lg bg-blue-900 rounded-md text-white mr-1">Chess</li>
